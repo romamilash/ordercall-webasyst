@@ -1,0 +1,10 @@
+92a2817d157282cd692768b3ea13bf01 *img/invoicephys.png
+ff808a4524454f7a68eacf72e0ca05c5 *img/invoicephys16.png
+a1751e1f10a3b96b05d0401c97e72008 *lib/.htaccess
+ae5170f9f072425c647bcb44c2a552fd *lib/config/build.php
+0d05ffb0af5e0a4d6cffa912e1f09524 *lib/config/plugin.php
+faa455ebc8429fab8d01944c451b8ae3 *lib/config/settings.php
+35841feacbaa9959f91d7c6953d4e5fe *lib/invoicephysPayment.class.php
+a1751e1f10a3b96b05d0401c97e72008 *templates/.htaccess
+5d6a123c6c65bbf2a8a71b66d733ab04 *templates/form.html
+3eef7dd32b258b21ebfe35350d32688e *templates/payment.html

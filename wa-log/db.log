@@ -1,0 +1,21 @@
+
+2022-09-02 21:37:40 127.0.0.1
+Table 'webasyst2.wa_app_settings' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(491)
+#0 wa-system/database/waDbMysqliAdapter.class.php(189): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(194): waDbMysqliAdapter->schema()
+#2 wa-system/webasyst/lib/models/waAppSettings.model.php(114): waModel->describe()
+#3 wa-system/database/waModel.class.php(149): waAppSettingsModel->describe()
+#4 wa-system/database/waModel.class.php(99): waModel->getFields()
+#5 wa-system/database/waModel.class.php(78): waModel->getMetadata()
+#6 wa-system/contact/waContact.class.php(67): waModel->__construct()
+#7 wa-system/user/waUser.class.php(22): waContact->init()
+#8 wa-system/user/waAuthUser.class.php(32): waUser->init()
+#9 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#10 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#11 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#12 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#13 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#14 wa-system/waSystem.class.php(610): waDispatch->dispatch()
+#15 index.php(7): waSystem->dispatch()
+#16 {main}

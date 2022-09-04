@@ -1,0 +1,11 @@
+65a33a2ed48b52e547e32efaad5de0ba *img/invoicejur.png
+85a9f8d25219205598f21c2630f0cfac *img/invoicejur16.png
+a1751e1f10a3b96b05d0401c97e72008 *lib/.htaccess
+81c1b4707a5110af7b9af96f9d753885 *lib/config/build.php
+2abcdd09f8427615b84046087f0ec396 *lib/config/plugin.php
+cad80d3ae569cdd67a930fc2c84dcc32 *lib/config/settings.php
+92c9c6713b0bde0c425f6bc8c48390f5 *lib/invoicejurPayment.class.php
+a1751e1f10a3b96b05d0401c97e72008 *templates/.htaccess
+5901232554053e5056002bb6e7dc8f4c *templates/form.html
+c8e3af4457ffd4dd8dad054593a04a3d *templates/js/printform.js
+5354e8ad595622a423f7d3f9b82afec1 *templates/payment.html
