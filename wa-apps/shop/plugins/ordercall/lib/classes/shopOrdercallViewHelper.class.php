@@ -8,11 +8,15 @@ final class shopOrdercallViewHelper
         return static::getHtml();
     }
 
+    /**
+     * @return string
+     */
     private static function getHtml() : string
     {
         $plugin = wa('shop')->getPlugin('ordercall');
         $settings = $plugin->getSettings();
         $privacyLink = $settings['link'];
+        $captcha = wa('shop')->getCaptcha()->getHtml();
 
         if (!$settings['is_enable']) return '';
 
@@ -56,10 +60,12 @@ final class shopOrdercallViewHelper
                     <span>17</span>
                 </div>
                 <label for="comment">Комментарий</label>
-                <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                <textarea name="comment" id="comment" cols="30" rows="3"></textarea>
+                $captcha
             </div>
         </section>
         <footer>
+            <p class="order-call-form__error"></p>
             <button>Отправить</button>
             <p><i>Нажимая на кнопку «Отправить», вы соглашаетесь на обработку персональных данных в соответствии с <a href="$privacyLink">Политикой конфиденциальности</a></i></p>
         </footer>
@@ -74,6 +80,9 @@ EOT;
         return $html;
     }
 
+    /**
+     * @return bool
+     */
     private static function isWorkingHours() : bool
     {
         return (waDateTime::format('time') > '08:00' && waDateTime::format('time') < '17:00');

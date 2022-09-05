@@ -1,0 +1,29 @@
+{
+  "name": "ordercall",
+  "version": "1.1.0",
+  "description": "ОПИСАНИЕ ПРОЕКТА ----------------",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romamilash/ordercall.git"
+  },
+  "author": "Roma Milash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romamilash/ordercall/issues"
+  },
+  "homepage": "https://github.com/romamilash/ordercall#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.54.8"
+  }
+}
