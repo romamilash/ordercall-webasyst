@@ -22,7 +22,7 @@ git clone https://github.com/romamilash/ordercall-webasyst.git
 
 В корне проекта находится последний дамп базы данных webasyst2.sql, для разворачивания проекта «с нуля».
 
-Файлы плагина находятся в папке `wa-apps/shop/plugins/ordercall.php`.
+Файлы плагина находятся в папке `wa-apps/shop/plugins/ordercall`.
 
 ЗАПУСК И КОНФИГУРАЦИЯ
 ---------------------

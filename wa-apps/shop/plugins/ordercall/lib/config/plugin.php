@@ -5,9 +5,9 @@ return [
     'img' => 'img/icon.png',
     'description' => 'Заказ обратного звонка',
     'vendor' => 'romamilash',
-    'version' => '1.2.0',
+    'version' => '1.3.1',
     'frontend' => true,
-    'handlers' => array(
+    'handlers' => [
         'frontend_head' => 'frontendHead',
-    ),
+    ],
 ];
